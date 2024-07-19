@@ -15,6 +15,11 @@ body {
     border-radius: 15px;
 }
 
+.navbar-brand span{
+    color: white;
+    font-size: 1.5rem;
+}
+
 .company_name{
     color: white;
     margin-left: -50px;
@@ -24,7 +29,8 @@ body {
 
 
 .hero {
-    background: url('..images/hero.jpg') no-repeat center center;
+    /* background: url('..images/hero.jpg') no-repeat center center; */
+    background:url('../images/hero.jpg');
     background-size: cover;
     color: white;
     text-align: center;
