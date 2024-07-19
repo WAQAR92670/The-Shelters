@@ -37,6 +37,15 @@ body {
     padding: 60px 0; /* Adjusted padding for smaller screens */
 }
 
+.hero h1{
+    font-weight: bold;
+}
+
+.hero p{
+    font-weight: bold;
+
+}
+
 /* Ensure images in cards are responsive */
 .card-img-top {
     width: 100%; /* Make images responsive */
