@@ -24,7 +24,7 @@ body {
 
 
 .hero {
-    background: url('images/hero.jpg') no-repeat center center;
+    background: url('..images/hero.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
