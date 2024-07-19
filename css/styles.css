@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #5f4842, #feb47b);
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 50px;
+    border-radius: 15px;
+}
+
+.company_name{
+    color: white;
+    margin-left: -50px;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    background:url('../images/hero.jpg');
+    background-size: cover;
+}
+
+.hero .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    padding: 20px 0;
+    background: linear-gradient(to right, #b5978f, #feb47b);
+    border-top: 1px solid #dcdcdc;
+    font-weight: bolder;
+}
+
+.footer h3 {
+    font-weight: bold;
+}
+
+.order{
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 20px;
+    width: 19%;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+    height: 40vh;
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #ff7e5f;
+    border-color: #ff7e5f;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #feb47b;
+    border-color: #feb47b;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.map-container iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Styles */
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
